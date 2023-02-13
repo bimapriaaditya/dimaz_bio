@@ -1,0 +1,29 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Assistant';
+  src: url(../FONTS/Assistant-Regular.ttf);
+}
+@font-face {
+  font-family: 'Righteous';
+  src: url(../FONTS/Righteous-Regular.ttf);
+}
+@font-face {
+  font-family: 'RiberioDemoScript';
+  src: url(../FONTS/RiberioDemoScript.ttf);
+}
+
+body {
+  margin: 0;
+  color: #000000;
+  text-align: left;
+  background-color: #fefefe;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: 'Assistant', 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
