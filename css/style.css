@@ -244,3 +244,16 @@ header > .header-content .header-menu .menu-item > a{
   width: 48%;
   height: 200px;
 }
+.card-list {
+  display: flex;
+}
+.card-list > *{
+  width: 25%;
+}
+.card-contact {
+  background-color: #ffffff;
+  border: 1px solid #e7e7e7;
+  display: block;
+  padding: 2rem 1rem;
+  border-radius: .5rem;
+}
