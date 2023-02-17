@@ -34,6 +34,17 @@ body {
 #content {
   text-align: center;
 }
+.welcome{
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, .25);
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  box-shadow: 0 0 6px 3px rgb(255 255 255 / 25%);
+}
 .text-white {
   color: #ffffff;
 }
@@ -74,6 +85,12 @@ body {
 .mx-1 {
   margin: 0 .25rem;
 }
+.mr-1 {
+  margin-right: .5rem;
+}
+.mr-2 {
+  margin-right: .75rem;
+}
 .mr-3 {
   margin-right: 1rem;
 }
@@ -86,13 +103,31 @@ body {
   cursor: pointer;
   border-radius: .5rem;
   color: currentColor;
+  text-decoration: none;
+  transition: .4s;
+  border: 1px solid;
+  border-color: transparent;
+}
+.btn.rounded {
+  border-radius: 15rem;
 }
 .btn.btn-circle {
   border-radius: 50%;
 }
-.btn.btn-brown {
-  background: #8F3F1C;
-  color: #ffffff;
+.btn.btn-outline-white {
+  border: 1px solid white;
+  color: white;
+}
+.btn.btn-brown,
+.btn-outline-brown:hover {
+  background: #8F3F1C !important;
+  color: #ffffff !important;
+  border-color: transparent !important;
+}
+.btn.btn-outline-brown {
+  background: transparent;
+  border-color: #8F3F1C;
+  color: #8F3F1C;
 }
 .btn.btn-red {
   background-color: #EA242D;
@@ -256,4 +291,11 @@ header > .header-content .header-menu .menu-item > a{
   display: block;
   padding: 2rem 1rem;
   border-radius: .5rem;
+}
+.content-paralax {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
